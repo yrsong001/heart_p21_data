@@ -117,7 +117,7 @@ const withUrlSelection = (config) => {
 
 const baseViewConfig = {
   "version": "1.0.15",
-  "name": "Heart Xenium Dataset P21",
+  "name": "Xenium spatial — mouse heart P21",
   "description": "",
   "datasets": [
     {
@@ -280,6 +280,10 @@ const baseViewConfig = {
       "component": "spatial",
       "coordinationScopes": {
         "dataset": "A"
+      },
+      "props": {
+        "title": "Xenium spatial — mouse heart P21",
+        "helpText": "Xenium spatial view of the mouse heart at postnatal day 21 (P21). Use the Full P21 atlas button to clear URL-selected features or cell types."
       },
       "x": 0,
       "y": 0,
